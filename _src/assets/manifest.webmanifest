@@ -3,8 +3,8 @@
   "short_name": "Rand Asswad",
   "start_url": "../",
   "display": "minimal-ui",
-  "theme_color": "#25274d",
-  "background_color": "#25274d",
+  "theme_color": "#e0d531",
+  "background_color": "#f70c3b",
   "icons": [
       {
           "src": "/assets/favicons/icon-192.png",
