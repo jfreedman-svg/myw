@@ -1,5 +1,5 @@
 # site variables
-url:          "https://rand-asswad.xyz"
+url:          "https://jaredsvg.pages.dev"
 baseurl:      ""
 source:       ./_src
 destination:  ./_site
@@ -43,4 +43,4 @@ jekyll-minifier:
     harmony: true
 
 # Google Analytics measurements ID
-google_analytics: G-S3FZD64MJT
+google_analytics: G-8VDFHFFY0R
