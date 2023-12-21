@@ -4,11 +4,14 @@ order: "01"
 ---
 
 <h1 class="section-header">about me</h1>
-<ul class="list grid-list">
-  {% for c in site.data.about_me %}
-    <li>
-      <h1>{{ c.head }}</h1>
-      {{ c.body | markdownify }}
-    </li>
+<div class="accordeon">
+  {% for e in site.data.education %}
+    <div class="accordeon-item">
+      <h1 class="accordeon-title">{{ e.degree }} <a href="{{ e.link }}" target="_blank">@ {{ e.school }}</a></h1>
+      <div class="accordeon-content">
+        <h2 class="accordeon-subtitle">{{ e.date }}</h2>
+        <p>{{ e.description | markdownify }}</p>
+      </div>
+    </div>
   {% endfor %}
-</ul>
+</div>
